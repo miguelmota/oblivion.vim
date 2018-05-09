@@ -17,6 +17,9 @@ Set color scheme in `~/.vimrc`
 
 ```vim
 colorscheme Oblivion
+set t_Co=256
+hi Normal ctermbg=none
+highlight nonText ctermbg=NONE
 ```
 
 ## License
